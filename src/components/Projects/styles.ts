@@ -50,7 +50,7 @@ export const Container = styled.section`
   }
 `;
 
-export const ProjectContainer = styled.div<ProjectContainerProps>`
+export const ProjectItemContainer = styled.div<ProjectContainerProps>`
   width: 100%;
   display: flex;
   height: 25rem;

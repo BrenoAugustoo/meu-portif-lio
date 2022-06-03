@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import { AiOutlineRightCircle } from 'react-icons/ai';
-import { ProjectContainer } from './styles';
+import { ProjectItemContainer } from './styles';
 
 interface ProjectItemProps {
   title: string;
@@ -11,7 +11,7 @@ interface ProjectItemProps {
 
 export function ProjectItem({ title, type, slug, image }: ProjectItemProps) {
   return (
-    <ProjectContainer imgUrl={image}>
+    <ProjectItemContainer imgUrl={image}>
       <section>
         <div className="overlay" />
         <div className="text">
@@ -26,6 +26,6 @@ export function ProjectItem({ title, type, slug, image }: ProjectItemProps) {
           </a>
         </Link>
       </button>
-    </ProjectContainer>
+    </ProjectItemContainer>
   );
 }

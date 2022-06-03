@@ -3,7 +3,7 @@ import { NavSectionTitle } from '../NavSectionTitle';
 import { ProjectItem } from './ProjectItem';
 import { Container } from './styles';
 
-export function Projects() {
+export function ProjectsSection() {
   return (
     <Container>
       <NavSectionTitle title="Últimos Projetos" />
